@@ -1,0 +1,171 @@
+{
+  "name": "airline-carry-on-size-limits",
+  "title": "Airline carry-on and personal item size limits",
+  "description": "Cabin bag limits (carry-on and personal item: dimensions, linear limit, weight) for airlines in the US, Europe, Canada and Australia, copied from each airline’s own baggage page with the source link and the date it was checked — plus the published dimensions of popular travel backpacks from their makers’ product pages.",
+  "homepage": "https://willitfitlab.com/",
+  "keywords": [
+    "carry-on size",
+    "personal item size",
+    "airlines",
+    "baggage",
+    "travel backpack",
+    "cabin bag"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "airline-carry-on-limits",
+      "path": "data/airline-carry-on-limits.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "Airline cabin bag limits",
+      "sources": [
+        {
+          "title": "WillItFitLab (willitfitlab.com)",
+          "path": "https://willitfitlab.com/airlines/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "airline"
+          },
+          {
+            "name": "region"
+          },
+          {
+            "name": "allowance"
+          },
+          {
+            "name": "label"
+          },
+          {
+            "name": "length"
+          },
+          {
+            "name": "width"
+          },
+          {
+            "name": "depth"
+          },
+          {
+            "name": "unit"
+          },
+          {
+            "name": "alt_length"
+          },
+          {
+            "name": "alt_width"
+          },
+          {
+            "name": "alt_depth"
+          },
+          {
+            "name": "alt_unit"
+          },
+          {
+            "name": "linear_limit"
+          },
+          {
+            "name": "weight_kg"
+          },
+          {
+            "name": "included_with_every_fare"
+          },
+          {
+            "name": "note"
+          },
+          {
+            "name": "source"
+          },
+          {
+            "name": "checked"
+          },
+          {
+            "name": "page"
+          }
+        ]
+      }
+    },
+    {
+      "name": "travel-backpack-dimensions",
+      "path": "data/travel-backpack-dimensions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "title": "Travel backpack dimensions",
+      "sources": [
+        {
+          "title": "WillItFitLab (willitfitlab.com)",
+          "path": "https://willitfitlab.com/bags/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "bag"
+          },
+          {
+            "name": "brand"
+          },
+          {
+            "name": "model"
+          },
+          {
+            "name": "type"
+          },
+          {
+            "name": "soft"
+          },
+          {
+            "name": "configuration"
+          },
+          {
+            "name": "height"
+          },
+          {
+            "name": "width"
+          },
+          {
+            "name": "depth"
+          },
+          {
+            "name": "unit"
+          },
+          {
+            "name": "alt_height"
+          },
+          {
+            "name": "alt_width"
+          },
+          {
+            "name": "alt_depth"
+          },
+          {
+            "name": "alt_unit"
+          },
+          {
+            "name": "litres"
+          },
+          {
+            "name": "weight_as_printed"
+          },
+          {
+            "name": "source"
+          },
+          {
+            "name": "checked"
+          },
+          {
+            "name": "page"
+          }
+        ]
+      }
+    }
+  ]
+}
